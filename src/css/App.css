@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.D-flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px inset silver;
+}
+
+.Col-1 {
+  flex-basis: 7.3333333%;
+  min-width: 95px;
+  flex-grow: 1;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-2 {
+  flex-basis: 15.6666666%;
+  min-width: 190px;
+  flex-grow: 2;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-3 {
+  flex-basis: 23.9999999%;
+  min-width: 285px;
+  flex-grow: 3;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-4 {
+  flex-basis: 32.3333332%;
+  min-width: 380px;
+  flex-grow: 4;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-5 {
+  flex-basis: 40.6666665%;
+  min-width: 475px;
+  flex-grow: 5;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-6 {
+  flex-basis: 48.9999998%;
+  min-width: 570px;
+  flex-grow: 6;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-7 {
+  flex-basis: 57.3333331%;
+  min-width: 665px;
+  flex-grow: 7;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-8 {
+  flex-basis: 65.6666664%;
+  min-width: 760px;
+  flex-grow: 8;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-9 {
+  flex-basis: 73.9999997%;
+  min-width: 855px;
+  flex-grow: 9;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-10 {
+  flex-basis: 82.333333%;
+  min-width: 950px;
+  flex-grow: 10;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-11 {
+  flex-basis: 90.6666663%;
+  min-width: 1045px;
+  flex-grow: 11;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-12 {
+  flex-basis: 98.9999996%;
+  min-width: 1140px;
+  flex-grow: 12;
+  margin: 0.5%;
+  padding: 9px;
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Col-all-1 {
+  flex-basis: 7.3333333%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-2 {
+  flex-basis: 15.6666666%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-3 {
+  flex-basis: 23.9999999%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-4 {
+  flex-basis: 32.3333332%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-5 {
+  flex-basis: 40.6666665%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-6 {
+  flex-basis: 48.9999998%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-7 {
+  flex-basis: 57.3333331%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-8 {
+  flex-basis: 65.6666664%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-9 {
+  flex-basis: 73.9999997%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-10 {
+  flex-basis: 82.333333%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-11 {
+  flex-basis: 90.6666663%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.Col-all-12 {
+  flex-basis: 98.9999996%;
+  margin: 0.5%;
+  padding: 5px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+div.t2 {
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=App.css.map */

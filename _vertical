@@ -121,3 +121,57 @@ $dark-text: #d2e1dd;
 
 
 
+
+
+
+
+
+
+
+
+// @import 'vertical'
+
+.D-flex-row {
+    display: flex;
+    justify-content: space-around;
+    border: 10px inset silver;
+
+    .i-flex {
+        background: blue;
+        transition: background 1s;
+        flex-grow: 1;
+
+        &:hover {
+            background: $-rd;
+        }
+    }
+}
+
+// ------------------------------------------------------ //
+
+// font: {
+//   family: Helvetica, sans-serif;
+//   size: 18px;
+//   weight: bold;
+// }
+
+// text: {
+//   align: center;
+//   transform: lowercase;
+//   overflow: hidden;
+// }
+
+// ------------------------------------------------------ //
+
+
+@for $i from 1 through 3 {
+    .Col-#{$i} {
+        flex-basis: (8.3333333%*$i) - .8%;
+        min-width: (95px*$i);
+        flex-grow: $i;
+        margin: .4%;
+    }
+}
+
+
+// ------------------------------------------------------ //
